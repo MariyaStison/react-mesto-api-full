@@ -15,7 +15,7 @@ https://github.com/MariyaStison/react-mesto-api-full.git
 
 #### Ссылка на сайт
 
-
+https://mesto.msti.nomoredomains.club
 
 #### Технологии
 
