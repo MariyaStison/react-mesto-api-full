@@ -236,7 +236,6 @@ function App() {
     setIsLoading(true);
     login(email, password)
       .then((res) => {
-        //localStorage.setItem('token', res.token);
         setEmail(email);
         setIsLoggedIn(true);
       })
