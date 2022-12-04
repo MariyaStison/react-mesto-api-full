@@ -1,0 +1,17 @@
+.btn_type_delete {
+    width: 18px;
+    height: 19px;
+    background-image: url(../../../images/trash-btn.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    .btn_type_add {
+       width: 100%;
+       margin-top: 31px;
+    }
+  }

@@ -1,0 +1,19 @@
+.btn_type_close {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/close-icon.svg);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: -35px;
+    right: calc((100% - 358px)/2 - 2*32px - 8px);
+}
+
+@media screen and (max-width: 640px) {
+    .btn_type_close {
+      width: 20px;
+      height: 20px;
+      top: -34px;
+      right: calc((100% - 238px)/2 - 24px);
+    }
+  }

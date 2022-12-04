@@ -1,0 +1,7 @@
+.popup__container_type_info{
+    max-height: 330px;
+    padding: 60px 36px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

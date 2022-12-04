@@ -1,0 +1,10 @@
+.popup__container-view {
+    margin: auto;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

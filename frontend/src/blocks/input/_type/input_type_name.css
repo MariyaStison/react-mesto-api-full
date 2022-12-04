@@ -1,0 +1,15 @@
+.input_type_name {
+    margin-top: 46px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 640px) {
+    .input_type_name {
+        margin-top: 70px;
+    }
+  }

@@ -1,0 +1,18 @@
+body {
+   background: #000000;
+}
+
+.page {
+   max-width: 880px;
+   margin: 45px auto 60px auto;
+   background: #000000;
+   font-family: 'Inter', Arial, sans-serif;
+   color: #FFFFFF;
+   font-weight: 400;
+}
+
+@media screen and (max-width: 924px) {
+   .page {
+       margin: 28px 20px 36px 20px;
+   }
+}

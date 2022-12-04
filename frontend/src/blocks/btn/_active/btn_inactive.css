@@ -1,0 +1,13 @@
+.btn_inactive {
+    background-color: white;
+    color: #000000;
+    /*border-color: #000000;
+    border-width: 1px;
+    border-style: solid;*/
+    opacity: .2;
+    cursor: default;
+}
+
+.btn_type_submit:hover {
+    opacity: .2;
+}

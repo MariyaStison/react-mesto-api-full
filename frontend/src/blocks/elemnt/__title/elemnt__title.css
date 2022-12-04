@@ -1,0 +1,11 @@
+.elemnt__title{
+    margin: 0;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #000000;
+}

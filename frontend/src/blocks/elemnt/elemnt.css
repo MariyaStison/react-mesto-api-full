@@ -1,0 +1,10 @@
+.elemnt {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 282px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,7 @@
+.elemnt__bottom-site {
+    padding: 21px 20px 26px 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

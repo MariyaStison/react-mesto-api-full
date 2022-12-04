@@ -1,0 +1,8 @@
+.input-error {
+  display: block;
+  min-height: 30px;
+  color: #FF0000;
+  font-size: 12px;
+  line-height: 1.25;
+  visibility: hidden;
+}
