@@ -41,8 +41,6 @@ function App() {
   const isOpen = isEditAvatarPopupOpen || isEditProfilePopupOpen || isAddPlacePopupOpen || isConfirmPopUpOpen || selectedCard;
 
   React.useEffect(() => {
-    console.log(document.cookie);
-   // if (localStorage.getItem('token')) {
       tokenCheck()
         .then((res) => {
           setEmail(res.email);
@@ -52,7 +50,6 @@ function App() {
         .catch((err) => {
           console.log(`Произошла ошибка при проверке токена: ` + err);
         })
-   // }
   }, []);
 
   React.useEffect(() => {
@@ -239,7 +236,7 @@ function App() {
     setIsLoading(true);
     login(email, password)
       .then((res) => {
-        localStorage.setItem('token', res.token);
+        //localStorage.setItem('token', res.token);
         setEmail(email);
         setIsLoggedIn(true);
       })

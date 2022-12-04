@@ -57,7 +57,11 @@ module.exports.login = (req, res, next) => {
         { expiresIn: '7d' },
       );
       return res
-        .cookie('jwt', token, { httpOnly: true, sameSite: false })
+        .cookie('jwt', token, {
+          httpOnly: true,
+          sameSite: false,
+          secure: NODE_ENV === 'production' ? 'true' : 'false',
+        })
         .status(200).send({ message: 'Авторизация пройдена успешно' });
     })
     .catch(next);

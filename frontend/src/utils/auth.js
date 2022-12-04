@@ -1,6 +1,6 @@
 
 const fetchData = {
-    baseUrl: 'http://api.mesto.msti.nomoredomains.club',
+    baseUrl: 'https://api.mesto.msti.nomoredomains.club',
     headers: {
       'Content-Type': 'application/json'
     }
