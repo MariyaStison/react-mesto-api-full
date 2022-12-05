@@ -15,9 +15,9 @@ https://github.com/MariyaStison/react-mesto-api-full.git
 
 #### Ссылка на сайт
 
-IP 158.160.15.139
-Frontend https://mesto.msti.nomoredomains.club
-Backend https://api.mesto.msti.nomoredomains.club
+* IP 158.160.15.139
+* Frontend https://mesto.msti.nomoredomains.club
+* Backend https://api.mesto.msti.nomoredomains.club
 
 #### Технологии
 
